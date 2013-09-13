@@ -1,4 +1,3 @@
-
 systemctl stop cgminerLCDStats
 
 systemctl start cgminerLCDStats
@@ -6,6 +5,9 @@ systemctl start cgminerLCDStats
 
 /opt/minepeon/modules/cgminerLCDStats
 
+cd /opt/minepeon/modules/
+sudo rm -r cgminerLCDStats
+git clone https://github.com/cardcomm/cgminerLCDStats.git
 
-https://github.com/cardcomm/cgminerLCDStats/archive/master.zip
+
 
