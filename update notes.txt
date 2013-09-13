@@ -1,0 +1,11 @@
+
+systemctl stop cgminerLCDStats
+
+systemctl start cgminerLCDStats
+
+
+/opt/minepeon/modules/cgminerLCDStats
+
+
+https://github.com/cardcomm/cgminerLCDStats/archive/master.zip
+
